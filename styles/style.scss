@@ -1,0 +1,27 @@
+$primaryColor: lightblue;
+
+$defaultBtnColor: rgb(45, 45, 45);
+$defaultBtnColorHover: rgb(15, 15, 15);
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: $defaultBtnColor;
+  color: white;
+  border-color: white;
+  border: 0;
+
+  &:hover {
+    background-color: $defaultBtnColorHover;
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
